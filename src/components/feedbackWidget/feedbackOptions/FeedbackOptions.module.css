@@ -1,0 +1,36 @@
+.feedback-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  text-transform: uppercase;
+}
+
+.feedback-btn:nth-child(1) {
+  background-color: rgb(28, 167, 0);
+  margin-right: 10px;
+}
+
+.feedback-btn:nth-child(2) {
+  background-color: rgb(255, 187, 0);
+  margin-right: 10px;
+}
+
+.feedback-btn:nth-child(3) {
+  background-color: rgb(255, 57, 57);
+}
+
+.feedback-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.feedback-btn:active {
+  opacity: 1;
+  transform: scale(1.1);
+}

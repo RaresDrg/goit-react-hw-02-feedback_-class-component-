@@ -1,0 +1,17 @@
+.section {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  padding: 30px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section:hover {
+  transform: scale(1.03);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
